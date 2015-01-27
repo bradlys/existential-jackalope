@@ -1,0 +1,50 @@
+[
+  {
+    "name": "Century Ballroom",
+    "nextDate" : 1422316414693,
+    "reoccurringDate" : "EW",
+    "imgURL": "/images/dance_1.png",
+    "style" : "Swing",
+    "id" : 1
+  },
+  {
+    "name": "Savoy Monday's",
+    "nextDate" : 1428319414693,
+    "reoccurringDate" : "EM",
+    "imgURL": "/images/dance_2.png",
+    "style" : "Swing",
+    "id" : 2
+  },
+  {
+    "name": "PPAA Thursday's",
+    "nextDate" : 1422516814693,
+    "reoccurringDate" : "ETH",
+    "imgURL": "/images/dance_3.png",
+    "style" : "Swing",
+    "id" : 3
+  },
+  {
+    "name": "Tuesday Blues",
+    "nextDate" : 1421513815693,
+    "reoccurringDate" : "ETU",
+    "imgURL": "/images/dance_4.png",
+    "style" : "Blues",
+    "id" : 4
+  },
+  {
+    "name": "Friday Night Blues",
+    "nextDate" : 1420516814693,
+    "reoccurringDate" : "EF",
+    "imgURL": "/images/dance_5.png",
+    "style" : "Blues",
+    "id" : 5
+  },
+  {
+    "name": "Om Practica",
+    "nextDate" : 1422999814693,
+    "reoccurringDate" : "EW",
+    "imgURL": "/images/dance_6.png",
+    "style" : "Tango",
+    "id" : 6
+  }
+]
