@@ -2,5 +2,5 @@
 <select ng-model="dayFilter" ng-init="dayFilter = dayFilter || days[0]" ng-options="day for day in days"></select>
 <table class="table table-hover">
 	<tr><th>Style</th><th>Name</th><th>Date(s)</th><th>Next Dance</th></tr>
-	<tr ng-repeat="dance in dances | stylesFilter: styleFilter" dance="dance"></tr>
+	<tr ng-repeat="dance in dances | stylesFilter: styleFilter | orderBy: ['style', 'name']" dance="dance"></tr>
 </table>

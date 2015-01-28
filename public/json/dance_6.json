@@ -4,5 +4,17 @@
     "reoccurringDate" : "EW",
     "imgURL": "/images/dance_6.png",
     "style" : "Tango",
-    "id" : 6
+    "id" : 6,
+	"agelimit" : "no age limit",
+	"admission" : "$5 members",
+	"time" : "9:00PM-11:30PM dance",
+	"recurring" : "Every Wednesday",
+	"location" : "Om Studio in Seattle, WA",
+	"email" : "someone@tangoytangos.org",
+	"phone" : "123-456-7890",
+	"website" : "tangoytangos.com",
+	"googlemap" : "a link to google maps",
+	"description" : "So much practica in so little time",
+	"lastmodified" : 1427315341277,
+	"free" : "never"
 }

@@ -1,8 +1,20 @@
 {
-	"name": "Savoy Monday's",
-	"nextDate" : 1428319414693,
-	"reoccurringDate" : "EM",
-	"imgURL": "/images/dance_2.png",
-	"style" : "Swing",
-	"id" : 2
+    "name": "Savoy Monday's",
+    "nextDate" : 1428319414693,
+    "reoccurringDate" : "EM",
+    "imgURL": "/images/dance_2.png",
+    "style" : "Swing",
+    "id" : 2,
+	"agelimit" : "no age limit",
+	"admission" : "$5, $3 for members",
+	"time" : "9:00PM-11:30PM dance",
+	"recurring" : "Every Wednesday",
+	"location" : "A Location in Seattle, WA",
+	"email" : "someone@savoyswing.org",
+	"phone" : "123-456-7890",
+	"website" : "centuryballroom.com",
+	"googlemap" : "a link to google maps",
+	"description" : "So much dancing of the lindy hops",
+	"lastmodified" : 1427315341277,
+	"free" : "never"
 }

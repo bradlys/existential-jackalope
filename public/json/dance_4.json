@@ -4,5 +4,17 @@
     "reoccurringDate" : "ETU",
     "imgURL": "/images/dance_4.png",
     "style" : "Blues",
-    "id" : 4
+    "id" : 4,
+	"agelimit" : "no age limit",
+	"admission" : "Before 9:30PM: $5, $3 for students. After 9:30PM: $7, $5 for students",
+	"time" : "8:30PM-9:00PM beginner lesson. 8:30PM-9:30PM experienced lesson. 9:00PM-12:00AM, dance.",
+	"recurring" : "Every Tuesdady",
+	"location" : "Another Location in Seattle, WA",
+	"email" : "someone@bluesplace.org",
+	"phone" : "206-867-5309",
+	"website" : "bluesplace.com",
+	"googlemap" : "a link to google maps",
+	"description" : "Born under a bad sign, been down since I began to crawl.",
+	"lastmodified" : 1427315341277,
+	"free" : "never"
 }

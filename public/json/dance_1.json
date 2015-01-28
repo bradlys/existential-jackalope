@@ -1,8 +1,20 @@
 {
-	"name": "Century Ballroom",
-	"nextDate" : 1422316414693,
-	"reoccurringDate" : "EW",
-	"imgURL": "/images/dance_1.png",
-	"style" : "Swing",
-	"id" : 1
+    "name": "Century Ballroom",
+    "nextDate" : 1422316414693,
+    "reoccurringDate" : "EW",
+    "imgURL": "/images/dance_1.png",
+    "style" : "Swing",
+    "id" : 1,
+	"agelimit" : "21+",
+	"admission" : "$8",
+	"time" : "9:00PM lesson, 9:30PM-12:00AM dance",
+	"recurring" : "Every Wednesday",
+	"location" : "915 E Pine St, Seattle, WA",
+	"email" : "someone@centuryballroom.com",
+	"phone" : "123-456-7890",
+	"website" : "centuryballroom.com",
+	"googlemap" : "a link to google maps",
+	"description" : "A long standing lindy hop dance in Seattle",
+	"lastmodified" : 1422315341277,
+	"free" : "never"
 }

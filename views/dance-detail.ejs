@@ -1,7 +1,44 @@
 <h1>{{dance.name}}</h1>
-<ul>
-  <li>image: <img ng-src="{{dance.imgURL}}" width="200"></li>
-  <li>next date: {{dance.nextDate | date }}</li>
-  <li>reoccuring: {{dance.reoccurringDate | reoccurringDateFormatter }}</li>
-  <li>style: {{dance.style}}</li>
-</ul>
+<div class="col-sm-6">
+	<img class="img-responsive" ng-src="{{dance.imgURL}}">
+</div>
+<div class="col-sm-6">
+	<table class="table">
+		<tr>
+		<td>Age Limit</td><td>{{dance.agelimit}}</td>
+		</tr>
+		<tr>
+		<td>Admission</td><td>{{dance.admission}}</td>
+		</tr>
+		<tr>
+		<td>Time</td><td>{{dance.time}}</td>
+		</tr>
+		<tr>
+		<td>Date</td><td>{{dance.nextDate | date}}</td>
+		</tr>
+		<tr>
+		<td>Recurring</td><td>{{dance.recurring}}</td>
+		</tr>
+		<tr>
+		<td>Location</td><td>{{dance.location}}</td>
+		</tr>
+		<tr>
+		<td>Contact Email</td><td>{{dance.email}}</td>
+		</tr>
+		<tr>
+		<td>Contact Phone</td><td>{{dance.phone}}</td>
+		</tr>
+		<tr>
+		<td>Website</td><td>{{dance.website}}</td>
+		</tr>
+		<tr>
+		<td>Google Map</td><td>{{dance.googlemap}}</td>
+		</tr>
+	</table>
+</div>
+<div class="col-sm-12">
+	{{dance.description}}
+</div>
+<div class="col-sm-12">
+	This post was last modified on {{dance.lastmodified | date}}
+</div>

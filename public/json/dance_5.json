@@ -4,5 +4,17 @@
     "reoccurringDate" : "EF",
     "imgURL": "/images/dance_5.png",
     "style" : "Blues",
-    "id" : 5
+    "id" : 5,
+	"agelimit" : "no age limit",
+	"admission" : "$a lot$",
+	"time" : "7:00PM-8:00PM drop-in lesson. 8:00PM-9:00PM drop-in lesson. 9:00PM-12:30AM dance",
+	"recurring" : "Every Friday",
+	"location" : "A Location in San Francisco, CA",
+	"email" : "someone@bluesorg.org",
+	"phone" : "123-456-7890",
+	"website" : "bluesorg.org",
+	"googlemap" : "a link to google maps",
+	"description" : "So much angst in a techy hub",
+	"lastmodified" : 1427315341277,
+	"free" : "never"
 }

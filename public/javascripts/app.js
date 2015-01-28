@@ -16,6 +16,10 @@ danceApp.config(function($routeProvider) {
       templateUrl: 'dance-detail.html',
       controller: 'DanceDetailCtrl'
     }).
+    when('/info/:style', {
+      templateUrl: 'style-info.html',
+      controller: 'StyleInfoCtrl'
+    }).
     otherwise({
       redirectTo: '/'
     });

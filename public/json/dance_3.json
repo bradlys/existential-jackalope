@@ -4,5 +4,17 @@
     "reoccurringDate" : false,
     "imgURL": "/images/dance_3.png",
     "style" : "Swing",
-    "id" : 3
+    "id" : 3,
+	"agelimit" : "no age limit",
+	"admission" : "$6",
+	"time" : "8:00PM lesson, 9:00PM-11:30PM dance",
+	"recurring" : "Every Thursday",
+	"location" : "A Location in Portland, OR",
+	"email" : "someone@someplace.org",
+	"phone" : "123-456-9999",
+	"website" : "websiteplace.com",
+	"googlemap" : "a link to google maps",
+	"description" : "So much dancing of the lindy hops!",
+	"lastmodified" : 1427315341277,
+	"free" : "never"
 }

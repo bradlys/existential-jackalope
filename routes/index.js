@@ -23,4 +23,8 @@ router.get('/dance.html', function(req, res, next){
 	res.render('dance');
 });
 
+router.get('/style-info.html', function(req, res, next){
+	res.render('style-info');
+});
+
 module.exports = router;
