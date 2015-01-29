@@ -6,13 +6,10 @@ function($scope, $location, dances){
 	dances.list(function(dances) {
 		$scope.dances = dances;
 		var styles = ["All Dances"];
-		var days = ["All Days"];
+		var days = ["All Days", "Sundays", "Mondays", "Tuesdays", "Wednesdays", "Thursdays", "Fridays", "Saturdays"];
 		for(var dance in dances){
 			if(styles.indexOf(dances[dance].style) === -1){
 				styles.push(dances[dance].style);
-			}
-			if(days.indexOf(dances[dance].reoccurringDate) === -1){
-				days.push(dances[dance].reoccurringDate);
 			}
 			dances[dance].stylelink = function(event){
 				$location.path('/info/' + this.style);

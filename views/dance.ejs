@@ -1,4 +1,4 @@
 <td class="dance-style"><span ng-click="dance.stylelink()" class="dance-style-{{dance.style | lowercase}}">{{dance.style}}</span></td>
 <td class="dance-name"><a href="#/{{dance.id}}">{{dance.name}}</a></td>
-<td class="dance-reoccurring-date">{{dance.reoccurringDate | reoccurringDateFormatter }}</td>
+<td class="dance-reoccurring-date">{{dance.recurring | recurringDateFormatter}}</td>
 <td class="dance-next-date">{{dance.nextDate | date}}</td>

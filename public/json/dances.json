@@ -2,61 +2,55 @@
   {
     "name": "Century Ballroom",
     "nextDate" : 1422316414693,
-    "reoccurringDate" : "EW",
     "style" : "Swing",
     "id" : 1,
     "agelimit" : "21+",
-    "recurring" : "Every Wednesday",
+    "recurring" : "E4",
     "free" : "never"
   },
   {
     "name": "Savoy Monday's",
     "nextDate" : 1428319414693,
-    "reoccurringDate" : "EM",
     "style" : "Swing",
     "id" : 2,
     "agelimit" : "no age limit",
-    "recurring" : "Every Monday",
+    "recurring" : "E2",
     "free" : "never"
   },
   {
     "name": "PPAA Thursday's",
     "nextDate" : 1422516814693,
-    "reoccurringDate" : "ETH",
     "style" : "Swing",
     "id" : 3,
     "agelimit" : "no age limit",
-    "recurring" : "Every Thursday",
+    "recurring" : "E5",
     "free" : "never"
   },
   {
     "name": "Tuesday Blues",
     "nextDate" : 1421513815693,
-    "reoccurringDate" : "ETU",
     "style" : "Blues",
     "id" : 4,
     "agelimit" : "no age limit",
-    "recurring" : "Every Tuesday",
+    "recurring" : "E3",
     "free" : "never"
   },
   {
     "name": "Friday Night Blues",
     "nextDate" : 1420516814693,
-    "reoccurringDate" : "EF",
     "style" : "Blues",
     "id" : 5,
     "agelimit" : "no age limit",
-    "recurring" : "Every Friday",
+    "recurring" : "E6",
     "free" : "never"
   },
   {
     "name": "Om Practica",
     "nextDate" : 1422999814693,
-    "reoccurringDate" : "EW",
     "style" : "Tango",
     "id" : 6,
     "agelimit" : "no age limit",
-    "recurring" : "Every Wednesday",
+    "recurring" : "E4",
     "free" : "never"
   }
 ]
