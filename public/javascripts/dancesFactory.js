@@ -4,14 +4,14 @@ app.factory('dances', function($http){
     list: function(callback){
       $http({
         method: 'GET',
-        url: 'json/dances.json',
+        url: 'dances',
         cache: true
       }).success(callback);
     },
     find: function(id, callback){
       $http({
         method: 'GET',
-        url: 'json/dance_' + id + '.json',
+        url: 'json/dance_' + id + ".json",
         cache: true
       }).success(callback);
     }

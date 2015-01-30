@@ -2,6 +2,9 @@ var app = angular.module('danceFilters', []);
 
 app.filter('recurringDateFormatter', function() {
   return function(danceDate) {
+  	if(typeof danceDate === "undefined"){
+		return "";
+	}
     if(danceDate === false){
     	return "false";
     } else {
@@ -38,6 +41,9 @@ app.filter('recurringDateFormatter', function() {
 
 app.filter('stylesFilter', function(){
 	return function(dances, style) {
+		if(typeof style === "undefined"){
+			return dances;
+		}
 		if(style === "All Dances"){
 			return dances;
 		}
@@ -54,6 +60,9 @@ app.filter('stylesFilter', function(){
 
 app.filter('daysFilter', function(){
 	return function(dances, day){
+		if(typeof day === "undefined"){
+			return dances;
+		}
 		if(day === "All Days"){
 			return dances;
 		}
